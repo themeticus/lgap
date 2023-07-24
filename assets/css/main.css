@@ -82,7 +82,19 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
+	.igap-logo {
+		text-align: center; 
+		padding:2px 0px; 
+		position: absolute; 
+		left: 50%;
+	}
+
 	@media screen and (max-width: 480px) {
+
+		.igap-logo img {
+			width: 42px;
+			margin-top: -2px;
+		}
 
 		html, body {
 			min-width: 320px;
