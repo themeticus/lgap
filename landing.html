@@ -28,13 +28,13 @@
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="landing.html">IGAP 10 Year Plan</a></li>
-						<li><a href="#">About us</a></li>
+						<li><a href="about.html">About us</a></li>
 						<li><a href="#">Contact us</a></li>
 						<li><a href="#">Get Involved</a></li>
 						<li><a href="#">Neurological Disorders</a></li>
 						<li><a href="#">Resources</a></li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Survey</a></li>
+						<li><a href="surveys.html">Survey</a></li>
 						<li><a href="#">Your Stories</a></li> 
 						<!-- <li><a href="#">Generic</a></li>
 						<li><a href="elements.html">Elements</a></li> -->
@@ -162,6 +162,28 @@
 				<section id="contact">
 					<div class="inner">
 						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Clear" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split">
 							<section>
 								<div class="contact-method">
 									<span class="icon solid alt fa-envelope"></span>
@@ -181,7 +203,7 @@
 									<span class="icon solid alt fa-home"></span>
 									<h3>Address</h3>
 									<span>Cape Town<br />
-									South Africa</span><br/>
+										South Africa</span><br/>
 
 									
 								</div>
